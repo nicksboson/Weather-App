@@ -6,3 +6,4 @@ export default defineConfig({
   plugins: [react()],
   base: '/', // for root deployment, or '/your-repo-name/' if using GitHub Pages
 })
+
