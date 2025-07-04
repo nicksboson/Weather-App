@@ -1,0 +1,136 @@
+.searchbar{
+text-align: center;
+margin: 0 auto;
+background: rgba(15, 32, 39, 0.85);
+padding: 32px 24px 24px 24px;
+border-radius: 18px;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+max-width: 420px;
+width: 100%;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+color: #f3f6fa;
+}
+
+.info{
+    width: 100%;
+    max-width: 400px;
+    margin: 32px auto 0 auto;
+}
+
+form {
+  margin-bottom: 16px;
+}
+
+.MuiTextField-root {
+  background: rgba(35, 37, 38, 0.8) !important;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.MuiTextField-root:hover {
+  background: rgba(35, 37, 38, 0.9) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  color: #f3f6fa;
+  background: transparent !important;
+  transition: all 0.3s ease;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused {
+  background: rgba(35, 37, 38, 0.95) !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.MuiAutocomplete-inputFocused {
+  background: rgba(35, 37, 38, 0.95) !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root input {
+  background: transparent !important;
+  color: #f3f6fa;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.4);
+  border-width: 2px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #3a3d7c;
+  border-width: 2px;
+  box-shadow: 0 0 0 4px rgba(58, 61, 124, 0.1);
+}
+
+.MuiTextField-root .MuiInputLabel-root {
+  color: rgba(243, 246, 250, 0.7);
+  transition: all 0.3s ease;
+}
+
+.MuiTextField-root .MuiInputLabel-root.Mui-focused {
+  color: #3a3d7c;
+  font-weight: 600;
+}
+
+.MuiTextField-root .MuiInputBase-input {
+  color: #f3f6fa;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent !important;
+}
+
+.MuiTextField-root .MuiInputBase-input::placeholder {
+  color: rgba(243, 246, 250, 0.5);
+  opacity: 1;
+}
+
+/* Autocomplete dropdown and popper styling for dark mode */
+.MuiAutocomplete-popper,
+.MuiAutocomplete-listbox,
+.MuiAutocomplete-paper {
+  background: #232526 !important;
+  color: #f3f6fa !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+.MuiAutocomplete-option {
+  background: transparent !important;
+  color: #f3f6fa !important;
+  transition: background 0.2s;
+}
+
+.MuiAutocomplete-option[aria-selected='true'],
+.MuiAutocomplete-option.Mui-focused {
+  background: #3a3d7c !important;
+  color: #fff !important;
+}
+
+.MuiAutocomplete-noOptions {
+  color: #aaa !important;
+  background: #232526 !important;
+}
+
+.MuiButton-contained {
+  background: linear-gradient(45deg, #3a3d7c, #2b5876);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(58, 61, 124, 0.3);
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(45deg, #2b5876, #0f2027);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(43, 88, 118, 0.4);
+}
